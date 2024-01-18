@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css" />
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.23/bundled/lenis.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js'></script><script  src="./script.js"></script>
+
+
+  <script src="./assets/js/main.js" defer></script>
+
+</head>
+
+<body>
+
+  <main class="container">
+    
+    <section class="sc-main" id="screenScale01">
+      <div class="main-img">
+        <img src="./assets/img/rhythm_01.png" alt="">
+      </div>
+
+    </section>
+
+
+    <section class="sc-overview">
+
+      <div class="overview-img">
+        <img src="./assets/img/rhythm_02.png" alt="">
+      </div>
+
+      <div class="swiper" id="mySwiper">
+  
+          <ul class="swiper-wrapper">
+          
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_a.png" alt=""></div>
+            </li>
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_b.png" alt=""></div>
+            </li>
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_c.png" alt=""></div>
+            </li>
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_d.png" alt=""></div>
+            </li>
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_e.png" alt=""></div>
+            </li>
+             
+            <li class="swiper-slide">
+                <div class="slide-img"><img src="./assets/img/rhythm_02_f.png" alt=""></div>
+            </li>
+        
+          
+          </ul>
+       
+       
+      </div>
+        
+      
+    </section>
+
+    <section class="sc-survey-title">
+      <div class="survey-title-img">
+        <img src="./assets/img/rhythm_03.png" alt="">
+      </div>
+
+    </section>
+
+
+    <section class="sc-survey">
+
+      <div class="survey-group">
+        
+        <div class="survey-top">
+          <span class="quest">Q</span>
+          <span class="quest-title"><strong>취미 기록 공유 어플리케이션</strong>을
+            사용해 본 <strong>경험</strong>이 있나요?</span>
+          <img id="surveyImg" src="./assets/img/survey_01.png" alt="">
+        
+        </div>
+        
+        <div class="survey-bottom">
+          
+          <div class="survey-left">
+
+            <ul class="graph-list">
+              <li class="graph-item">
+                <div class="progress-bar on-01" id="progress-bar60"></div>
+                <span class="title-on">취미 기록 업로드</span>
+                <span>60%</span>
+              </li>
+              <li class="graph-item">
+                <div class="progress-bar on-02" id="progress-bar12"></div>
+                <span class="title">댓글 남기기 및 좋아요 누르기</span>
+                <span>12%</span>
+              </li>
+              <li class="graph-item">
+                <div class="progress-bar on-03" id="progress-bar10"></div>
+                <span class="title">다른 사용자의 취미 활동 확인</span>
+                <span>10%</span>
+              </li>
+              <li class="graph-item">
+                <div class="progress-bar on-04" id="progress-bar10"></div>
+                <span class="title">그룹/커뮤니티 참여</span>
+                <span>10%</span>
+              </li>
+              <li class="graph-item">
+                <div class="progress-bar on-05" id="progress-bar05"></div>
+                <span class="title">추천 및 영감 얻기</span>
+                <span>05%</span>
+              </li>
+              <li class="graph-item">
+                <div class="progress-bar on-06" id="progress-bar03"></div>
+                <span class="title">기타</span>
+                <span>03%</span>
+              </li>
+            </ul>
+            
+          </div>
+         
+         
+          <div class="survey-right">
+
+            <div class="survey-card">
+              <img src="./assets/img/survey_icon_01.svg" alt="">
+              <span>공통관심사를 가진 사람들과<br>공유하고 싶어요!</span>
+              <p>많이 사용하는 소셜미디어 인스타나 페이스북에 취미 게시물을 많이 업로드하면, 주변 친구들이 좋아하지 않아요. 취미는 공통관심사를 가진 사람들과 함께 공유하고 싶어요.</p>
+            </div>
+            <div class="survey-card">
+              <img src="./assets/img/survey_icon_02.svg" alt="">
+              <span>취미를 만들고 싶은데, 정보가<br>없어서 접근하기 어려워요.</span>
+              <p>다양한 큐레이션을 통해 정보를 얻어서 새로운 취미를 만들고 싶어요. 정보없이 등록했다가, 취향이 너무 안맞아서 후회한적이 많아요.</p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    
+    <section class="sc-persona">
+      <div class="persona-img">
+        <img src="./assets/img/rhythm_04.png" alt="">
+      </div>
+
+    </section>
+   
+
+    <section class="sc-goal">
+      <div class="goal-img">
+        <img src="./assets/img/rhythm_05.png" alt="">
+      </div>
+    </section>
+
+    <section class="sc-style">
+      <div class="style-img">
+        <img src="./assets/img/rhythm_06.png" alt="">
+      </div>
+    </section>
+
+    <section class="sc-icon">
+      <div class="icon-img">
+        <img src="./assets/img/rhythm_07.png" alt="">
+      </div>
+
+    </section>
+
+    <section class="sc-color">
+
+      <div class="color-white">
+        <img src="./assets/img/rhythm_08_white.png" alt="">
+        <div class="color-left">
+          <button data-tab="#tab1" class="on"><img src="./assets/img/rhythm_08_color_a.png" alt=""></button>
+          <button data-tab="#tab2"><img src="./assets/img/rhythm_08_color_b.png" alt=""></button>
+          <button data-tab="#tab3"><img src="./assets/img/rhythm_08_color_c.png" alt=""></button>
+          <button data-tab="#tab4"><img src="./assets/img/rhythm_08_color_d.png" alt=""></button>
+         
+          <span class="line01"></span>
+          <span class="line02"></span>
+  
+        </div>
+      </div>
+
+
+  
+
+     
+      <div class="color-area on" id="tab1">
+        <div class="color-img">
+          <img src="./assets/img/rhythm_08_green.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="color-area purple" id="tab2">
+        <div class="color-img">
+          <img src="./assets/img/rhythm_08_purple.png" alt="">
+        </div>
+      </div>
+
+      <div class="color-area yellow" id="tab3">
+        <div class="color-img">
+          <img src="./assets/img/rhythm_08_yellow.png" alt="">
+        </div>
+      </div>
+
+      <div class="color-area blue" id="tab4">
+        <div class="color-img">
+          <img src="./assets/img/rhythm_08_blue.png" alt="">
+        </div>
+      </div>
+
+
+    </section>
+
+    <section class="sc-mockup">
+
+      <div class="mockup-img">
+        <img src="./assets/img/mockup_01.png" alt="">
+      </div>
+
+    </section>
+
+    <section class="sc-home">
+
+      <div class="home-img">
+        <img src="./assets/img/rhythm_09.png" alt="">
+      </div>
+
+    </section>
+   
+
+   <section class="sc-feed">
+    <div class="feed-img">
+      <img src="./assets/img/rhythm_10.png" alt="">
+    </div>
+   
+   </section>
+
+   <section class="sc-mockup">
+
+    <div class="mockup-img">
+      <img src="./assets/img/mockup_02.png" alt="">
+    </div>
+
+   </section>
+
+
+   <section class="sc-todo">
+    <div class="todo-img">
+      <img src="./assets/img/rhythm_11.png" alt="">
+    </div>
+   
+   </section>
+
+
+   <section class="sc-mockup">
+
+    <div class="mockup-img">
+      <img src="./assets/img/mockup_03.png" alt="">
+    </div>
+
+   </section>
+
+
+
+  </main>
+
+ 
+ 
+</body>
+
+</html>
